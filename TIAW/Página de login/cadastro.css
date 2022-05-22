@@ -1,0 +1,100 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica;
+}
+
+html
+{
+    height: 100%;
+}
+
+main
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(163, 204, 223);
+}
+
+.titulo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+
+.conteudo
+{
+    height: 70%;
+}
+
+/*modificacao de texto*/
+
+main
+{
+    color: rgb(17, 17, 80);
+}
+
+h1
+{
+    font-size: 300%;
+}
+
+.cadastro h3
+{
+    font-size: 150%;
+    padding-bottom: 30px;
+}
+
+/*cadastro conteudo*/
+
+.cadastro
+{
+    padding: 0 10%;
+}
+
+.cadastro input
+{
+    margin-bottom: 20px;
+}
+
+/*botao*/
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.voltar{
+    margin: 0 60px 0 auto;
+}
+.continuar{
+    margin: 0 auto 0 20px;
+}
+.container button
+{
+    display: flex;
+    padding: 7px;
+    background-color: rgb(255, 22, 111);
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+.fieldset1 {
+    width: 20%;
+  
+  }
+  
+  fieldset{
+    width: 30%;
+    margin: 0 auto;
+    border-style:none;
+  }
